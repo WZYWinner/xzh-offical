@@ -224,7 +224,7 @@ export default {
     };
   },
   mounted() {
-    /* banner-swiper */
+     /* banner-swiper */
     new Swiper(".banner-swiper", {
       loop: true, // 循环模式选项
       effect: 'fade',
@@ -251,6 +251,7 @@ export default {
       observer: true, //修改swiper自己或子元素时，自动初始化swiper
       observeParents: true //修改swiper的父元素时，自动初始化swiper
     });
+    
     /* customer-swiper */
     new Swiper(".customer-swiper", {
       loop: true, // 循环模式选项
@@ -360,7 +361,7 @@ export default {
 }
 #contactUs .contactUs-container .contactUs-contactWay span {
   display: inline-block;
-  width: 135px;
+  width: 10%;
   height: 48px;
   margin: 30px;
 }
@@ -373,8 +374,8 @@ export default {
   background-size: 100% 100%;
 } */
 #contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(2) {
-  width: 155px;
-  height: 55px;
+  /* width: 155px;
+  height: 55px; */
   background: url("../assets/img/wx_pay.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
@@ -461,7 +462,7 @@ export default {
     margin: 10px 0 10px;
   }
   #contactUs {
-    height: 200px;
+    height: 300px;
     transition: all ease 0.6s;
   }
   #contactUs .contactUs-container {
@@ -507,6 +508,12 @@ export default {
     padding: 20px 0;
     transition: all ease 0.6s;
   }
+  #contactUs .contactUs-container .contactUs-contactWay span {
+  display: inline-block;
+  width: 10%;
+  height: 48px;
+  margin: 30px;
+}
   #whyChooseUs .whyChooseUs-title p:nth-of-type(1) {
     font-size: 20px;
     font-weight: 700;
@@ -548,7 +555,7 @@ export default {
     margin: 30px 0 15px;
   }
   #contactUs {
-    height: 300px;
+    height: 400px;
   }
   #contactUs .contactUs-container {
     padding-top: 50px;
@@ -565,11 +572,17 @@ export default {
     margin-top: 30px;
   }
   #contactUs .contactUs-container .contactUs-contactWay span {
+  display: inline-block;
+  width: 10%;
+  height: 48px;
+  margin: 30px;
+}
+  /* #contactUs .contactUs-container .contactUs-contactWay span {
     display: inline-block;
     width: 32px;
     height: 32px;
     margin: 15px;
-  }
+  } */
   #customer .customer-title {
     font-size: 24px;
   }

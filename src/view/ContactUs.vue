@@ -4,7 +4,7 @@
     <div class="container">
       <div class="container-fuild ContactUs-container">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="col-xs-12 col-sm-6 col-md-6">
             <form class="form-horizontal" role="form">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">姓名</label>
@@ -37,9 +37,11 @@
               </div>
             </form>
           </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="postion-map">
-            <iframe width="504" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/s/IdvIFb"></iframe>
+            <iframe width="100%" height="320px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/s/IdvIFb"></iframe>
           </div>
+           </div>
         </div>
       </div>
     </div>

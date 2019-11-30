@@ -58,7 +58,7 @@ export default new Router({
           name: 'service',
           component: resolve => require(['@/view/Service'], resolve),
           meta: {
-            title: '相关服务'
+            title: '产品介绍'
           }
         }, {
           path: '/newsinformation',
@@ -79,7 +79,7 @@ export default new Router({
           name: 'jobchance',
           component: resolve => require(['@/view/JobChance'], resolve),
           meta: {
-            title: '工作机会'
+            title: '招商简介'
           }
         }, {
           path: '/contactus',

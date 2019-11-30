@@ -12,23 +12,23 @@
       <!-- PC -->
       <div class="info">
         <div class="part">
-          <div class="icon1 icon wow zoomIn"></div>
+          <div class="icon1 icon wow wobble"></div>
           <div class="text1 text"><p>全面支持</p><p>合作伙伴从合同签订成功之日起，从员工培训到整体运营为合作伙伴管理好团队提供全面支持！</p></div>
         </div>
         <div class="part">
-          <div class="icon2 icon wow zoomInRight"></div>
+          <div class="icon2 icon wow wobble"></div>
           <div class="text2 text"><p>专属管家</p><p>专业资深的客服团队一对一全程指导，从下到线上所有流程无限次指导，指导学会为止。</p></div>
         </div>
         <div class="part">
-          <div class="icon3 icon wow zoomIn"></div>
+          <div class="icon3 icon wow wobble"></div>
           <div class="text3 text"><p>技术支持</p><p>技术团队来自国内顶尖IT公司，能在技术上给予合作伙伴强大的保障。</p></div>
         </div>
         <div class="part">
-          <div class="icon4 icon wow zoomInLeft"></div>
+          <div class="icon4 icon wow wobble"></div>
           <div class="text4 text"><p>运营支持</p><p>芯智汇拥有强大的运营团队定期进行业务指导，协助合作伙伴进行市场开拓。</p></div>
         </div>
         <div class="part">
-          <div class="icon5 icon wow zoomIn"></div>
+          <div class="icon5 icon wow wobble"></div>
           <div class="text5 text"><p>产品共享</p><p>合作伙伴将在定制专属网页网站、APP、微信平台、小程序、金融行业软件等内容可享受各类内部优惠。</p></div>
         </div>
       </div>
@@ -360,6 +360,7 @@ font-size: 20px;
   margin: 50px auto;
 }
 .row{
+  width: 100%;
   text-align: center;
   padding: 6% 15%;
 }

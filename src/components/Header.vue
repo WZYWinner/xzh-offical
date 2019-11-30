@@ -180,7 +180,7 @@ export default {
 }
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 160px;
+  /* width: 160px; */
   height: 45px;
   position: absolute;
   top: 0;
@@ -301,7 +301,7 @@ export default {
   }
   /* 导航栏logo图片 */
   #header .header-nav-m .header-nav-m-logo img {
-    width: 95px;
+    width: 160px;
     height: 45px;
     position: absolute;
     top: 0;
